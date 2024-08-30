@@ -8,11 +8,12 @@ import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import HeaderHome from '@/app/component/header';
 
+
 const SignIn = () => {
   return (
     <div>   
-    <HeaderHome/>
-      <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
+      <HeaderHome/>
+      <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 pt-24">
         <Button variant="text" className="text-black font-extrabold text-4xl mb-2">
           <span className="text-blue-500">C</span>
           <span className="text-blue-500">u</span>
@@ -50,7 +51,20 @@ const SignIn = () => {
             <span className="mx-4 text-white font-semibold">OR</span>
             <div className="flex-grow border-t border-white"></div>
           </div>
-
+          <div className="flex justify-between space-x-4 mb-0">
+            <TextField
+              label="First Name"
+              fullWidth
+              margin="normal"
+              className="bg-white rounded"
+            />
+            <TextField
+              label="Last Name"
+              fullWidth
+              margin="normal"
+              className="bg-white rounded"
+            />
+          </div>
           <TextField
             label="Username"
             fullWidth
@@ -58,13 +72,32 @@ const SignIn = () => {
             className="mb-0 bg-white rounded"
           />
 
+        <TextField
+            label="Email"
+            fullWidth
+            margin="normal"
+            type="email"
+            className="mb-0 bg-white rounded"
+          />
+         
+
           <TextField
             label="Password"
             fullWidth
             margin="normal"
             type="password"
+            className="mb-0 bg-white rounded"
+          />
+
+        <TextField
+            label="ConfirmPassword"
+            fullWidth
+            margin="normal"
+            type="password"
             className="mb-2 bg-white rounded"
           />
+
+
          
           <div className="flex justify-between items-center mt-2">
             <Link href="#" underline="hover" className="text-blue-500">
