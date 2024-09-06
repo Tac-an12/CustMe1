@@ -1,15 +1,11 @@
 import React from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import HeaderHome from '@/app/component/header';
-
-
 
 
 const AboutPage = () => {
   return (
     <div>
-    <HeaderHome/>
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <Container maxWidth="md" className="bg-gray-100 p-8 rounded-lg shadow-lg">
           <Typography variant="h3" className="text-center text-gray-800 mb-6 font-bold">
