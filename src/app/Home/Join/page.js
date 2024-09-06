@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from '@mui/material/Container';
-import HeaderHome from '@/app/component/header';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
@@ -9,7 +8,7 @@ import PrintIcon from '@mui/icons-material/Print';
 const Join = () => {
   return (
     <>
-      <HeaderHome />
+    
       <div className="min-h-screen bg-white pt-24 flex flex-col items-center">
         
         <div className="text-center mb-1 mt-5">
