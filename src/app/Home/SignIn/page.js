@@ -6,12 +6,11 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import HeaderHome from '@/app/component/header';
+
 
 const SignIn = () => {
   return (
     <div>   
-    <HeaderHome/>
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
         <Button variant="text" className="text-black font-extrabold text-4xl mb-2">
           <span className="text-blue-500">C</span>
